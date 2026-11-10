@@ -1,0 +1,485 @@
+/* Halo — English.
+   Keys are the Japanese source strings; the development language is ja. */
+
+/* Menu bar */
+"Halo を呼び出す" = "Summon Halo";
+"ショートカット: " = "Shortcut: ";
+"設定…" = "Settings…";
+"使い方を見る" = "How it works";
+"AI の実行を中止" = "Stop AI";
+"Halo を終了" = "Quit Halo";
+
+/* AI review panel */
+"元のテキスト" = "Original";
+"結果" = "Result";
+"編集できます" = "Editable";
+"中止" = "Stop";
+"もう一度" = "Try again";
+"閉じる" = "Close";
+"コピー" = "Copy";
+"選択範囲を置き換える" = "Replace selection";
+
+/* Ring */
+"一致なし" = "No matches";
+"クリックで実行 · 入力で絞り込み" = "Click to run · type to filter";
+"これ以上潜れません" = "No deeper";
+"リングの階層は %lld 段までです" = "Rings nest up to %lld levels";
+"%lld 件" = "%lld results";
+
+/* Backup and reset */
+"書き出し" = "Export";
+"すべての設定" = "All settings";
+"書き出す…" = "Export…";
+"設定を書き出しました" = "Settings exported";
+"リングのみ" = "Rings only";
+"リングを書き出しました" = "Rings exported";
+"「リングのみ」は専用ショートカットや AI 設定を含みません。他の環境と共有するときはこちらを使ってください。" = "“Rings only” leaves out per-ring hot keys and AI settings. Use it when sharing with another machine.";
+"読み込み" = "Import";
+"設定ファイル" = "Configuration file";
+"読み込む…" = "Import…";
+"「すべて置き換える」と「リングを追加する」を選べます。追加のときは ID を振り直すので、既存のリングと衝突しません。参照先が見つからないサブリングは自動的に外されます。" = "You can replace everything or add the rings alongside your own. Added rings get fresh ids, so they never collide with what you already have, and sub-ring links that lead nowhere are cleared automatically.";
+"Finder で表示" = "Show in Finder";
+"リセット" = "Reset";
+"初期化…" = "Reset…";
+"初期化" = "Reset";
+"読み込みました（リング %lld 個）" = "Imported %lld rings";
+"初期化しました" = "Reset complete";
+
+/* Item editor */
+"項目" = "Item";
+"タイトル" = "Title";
+"SF Symbol 名" = "SF Symbol name";
+"例: bolt.fill" = "e.g. bolt.fill";
+"このシンボルはこの macOS には存在しません" = "This symbol does not exist on this version of macOS";
+"選ぶ…" = "Choose…";
+"色を指定" = "Custom colour";
+"リングに表示" = "Show on the ring";
+"アクション" = "Action";
+"種類" = "Kind";
+"実行前に確認する" = "Ask before running";
+"取り消せない操作です。確認を有効にしておくことをおすすめします。" = "This cannot be undone. Turning on confirmation is recommended.";
+"結果の扱い" = "Result";
+"出力先" = "Send to";
+"ペーストにはアクセシビリティ権限が必要です。" = "Pasting requires Accessibility permission.";
+"使えるプレースホルダ" = "Available placeholders";
+"この項目は何も実行しません。" = "This item does nothing.";
+"アプリのパス / Bundle ID" = "App path or bundle id";
+"選択…" = "Choose…";
+"インストール済みから選ぶ" = "Pick an installed app";
+"ショートカット名" = "Shortcut name";
+"インストール済み" = "Installed";
+"クリップボードを入力として渡す" = "Pass the clipboard as input";
+"/bin/zsh -lc で実行されます" = "Runs through /bin/zsh -lc";
+"クリップボードを標準入力に渡す" = "Pass the clipboard on stdin";
+"操作" = "Operation";
+"コピーするテキスト" = "Text to copy";
+"開くリング" = "Ring to open";
+"（自動生成）" = " (generated)";
+"プロンプト（{input} が入力に置き換わります）" = "Prompt ({input} is replaced with the input)";
+"入力" = "Input";
+"AI は現在無効です。「AI」タブで有効にしてください。" = "AI is off. Turn it on in the AI tab.";
+"新しい項目" = "New item";
+
+/* Gesture demo */
+"押したまま — リングが出る" = "Hold — the ring appears";
+"方向へ弾く" = "Flick toward an item";
+"離す — 実行" = "Release — it runs";
+
+/* Context */
+"有効" = "On";
+"アプリ" = "App";
+"リング" = "Ring";
+"アプリを追加" = "Add app";
+"最前面のアプリを追加" = "Add frontmost app";
+"削除" = "Remove";
+"呼び出した瞬間に最前面だったアプリに応じて、開くリングを切り替えます。一致するルールがなければルートリングが開きます。" = "Opens a different ring depending on which app was frontmost when you summoned Halo. With no matching rule, the root ring opens.";
+
+/* Hot keys */
+"召喚ショートカット" = "Summon shortcut";
+"グローバルショートカットを有効にする" = "Enable the global shortcut";
+"キー" = "Key";
+"押している間リングが出て、離すと選択中の項目を実行します。素早く押して離すとリングが開いたままになり、クリックで実行できます。" = "Hold it to show the ring and release to run what is selected. Tap it quickly and the ring stays open for clicking instead.";
+"実行" = "Run";
+"キーを離す / クリック / Return / 1〜9" = "Release the key · click · Return · 1–9";
+"サブリングへ" = "Into a sub-ring";
+"外側へ押し出す / クリック" = "Push outward · click";
+"親リングへ戻る" = "Back to the parent ring";
+"中心へ戻して静止 / Tab / 右クリック" = "Pull back to the centre and rest · Tab · right-click";
+"キャンセル" = "Cancel";
+"Esc / 中心でクリック" = "Esc · click the centre";
+"選択を回す" = "Move the selection";
+"← → / スクロール" = "← → · scroll";
+"ほかの召喚方法" = "Other ways to summon";
+"修飾キーのダブルタップで召喚" = "Double-tap a modifier key";
+"ダブルタップの間隔" = "Double-tap window";
+"%.2f 秒" = "%.2f s";
+"マウス／トラックパッドのボタンで召喚" = "A mouse or trackpad button";
+"ボタン" = "Button";
+"中クリック" = "Middle click";
+"ボタン 4" = "Button 4";
+"ボタン 5" = "Button 5";
+"状態" = "Status";
+"動作中" = "Active";
+"アクセシビリティ権限が必要です" = "Accessibility permission required";
+"これらは全体のイベントを読むため、アクセシビリティ権限が必要です。Halo はイベントを横取りしないので、中クリックなどは元の動作もそのまま働きます。" = "These read the global event stream, which needs Accessibility permission. Halo never swallows an event, so middle-click and friends keep working as they did.";
+"起動" = "Launch";
+"ログイン時に起動" = "Open at login";
+"クリップボード" = "Clipboard";
+"履歴を記録する" = "Keep a history";
+"履歴の保持数: %lld" = "History size: %lld";
+"履歴はメモリ上にのみ保持され、ディスクには書き出されません。パスワードマネージャなどが機密指定したコピーは記録しません。" = "The history lives in memory only and is never written to disk. Copies marked confidential — by password managers, for instance — are not recorded.";
+"キーを押してください…" = "Press a combination…";
+
+/* Appearance */
+"寸法" = "Size";
+"リングの半径" = "Ring radius";
+"ノードの大きさ" = "Node size";
+"リングの太さ" = "Ring thickness";
+"項目名の文字サイズ" = "Label size";
+"中心のデッドゾーン" = "Centre dead zone";
+"潜る距離の余白" = "Dive margin";
+"配置" = "Layout";
+"開始角度" = "Start angle";
+"広がり" = "Sweep";
+"並ぶ向き" = "Direction";
+"時計回り" = "Clockwise";
+"反時計回り" = "Counter-clockwise";
+"広がりを 360° 未満にすると、扇形に並びます。画面の端で呼び出すときに便利です。" = "A sweep below 360° arranges the items as a fan — handy when you summon Halo near the edge of the screen.";
+"形" = "Shape";
+"ノードの形" = "Node shape";
+"中心の表示" = "Centre";
+"項目名の位置" = "Label position";
+"アイコン" = "Icons";
+"番号バッジ（1〜9）を表示" = "Show number badges (1–9)";
+"光と色" = "Light and colour";
+"アクセント" = "Accent";
+"セカンダリ" = "Secondary";
+"発光の強さ" = "Glow";
+"選択アークを表示" = "Show the selection arc";
+"コメットを表示" = "Show the comet";
+"中心からの線を表示" = "Show the filament";
+"背景" = "Backdrop";
+"スタイル" = "Style";
+"強さ" = "Strength";
+"挙動" = "Behaviour";
+"押しっぱなし判定" = "Hold threshold";
+"秒" = "s";
+"戻るまでの静止時間" = "Dwell to go back";
+"アニメーション速度" = "Animation speed";
+"外へ押し出してサブリングへ潜る" = "Push outward to enter a sub-ring";
+"中心へ引き戻して親リングへ戻る" = "Pull inward to return to the parent ring";
+"スクロールで選択を回す" = "Scroll to move the selection";
+"数字キー（1〜9）で即実行" = "Run directly with 1–9";
+"選択時に触覚フィードバック" = "Haptic feedback on selection";
+"既定値に戻す" = "Restore defaults";
+"プリセット" = "Presets";
+"コンパクト" = "Compact";
+"大きく見やすく" = "Large and legible";
+"最小限" = "Minimal";
+"扇形（画面端向け）" = "Fan (for screen edges)";
+"プレビュー" = "Preview";
+
+/* AI settings */
+"AI アクションを有効にする" = "Enable AI actions";
+"Apple のオンデバイスモデルを使います。API キーもアカウントも不要で、入力したテキストがこの Mac の外に出ることはありません。" = "Uses Apple's on-device model. No API key, no account, and nothing you type ever leaves this Mac.";
+"結果の適用" = "Applying results";
+"適用する前に結果を確認する" = "Review the result before applying it";
+"生成結果をパネルで確認・編集してから、選択範囲を置き換えます。オフにすると確認なしでその場に反映されます。" = "Shows the result in a panel where you can read and edit it before it replaces your selection. Turn this off to apply it immediately.";
+"確認なしで選択範囲が書き換わります。取り消しは各アプリの取り消し操作に依存します。" = "Your selection will be rewritten without asking. Undoing depends on the app you are in.";
+"応答の調整" = "Response";
+"システムプロンプト" = "System prompt";
+"すべての AI 項目に共通で渡されます。既定では「説明を書かず結果だけ返す」よう指示しています。" = "Sent with every AI item. The default tells the model to return only the transformed text.";
+"ばらつき" = "Variation";
+"低いほど毎回同じ結果に、高いほど表現が揺れます。翻訳や整形は低め推奨。" = "Lower is more repeatable, higher is more varied. Keep it low for translation and clean-up.";
+"最大トークン: %lld" = "Max tokens: %lld";
+"動作テスト" = "Try it";
+"実行中…" = "Running…";
+"試す" = "Run";
+"プライバシー" = "Privacy";
+"入力はこの Mac の中だけで処理されます" = "Input is processed entirely on this Mac";
+"ネットワークには接続しません" = "No network connection is made";
+"履歴は保存されません" = "Nothing is stored";
+"この Mac で利用できます" = "Available on this Mac";
+"システム設定を開く" = "Open System Settings";
+"再確認" = "Check again";
+
+/* About */
+"必要な操作を、必要な瞬間に、カーソルの周りへ召喚する。" = "Summon the action you need, the moment you need it, around your cursor.";
+"バージョン %@" = "Version %@";
+"設定の書き出し・読み込み・リセットは「バックアップ / リセット」にあります。" = "Export, import and reset live in Backup / Reset.";
+"設定ファイルを表示" = "Show the configuration file";
+
+/* Preferences tabs */
+"Halo 設定" = "Halo Settings";
+"コンテキスト" = "Context";
+"ショートカット" = "Shortcuts";
+"外観" = "Appearance";
+"バックアップ / リセット" = "Backup / Reset";
+"Halo について" = "About Halo";
+
+/* Ring editor */
+"%lld 項目" = "%lld items";
+"ルートリングに設定" = "Make this the root ring";
+"複製" = "Duplicate";
+"リング名" = "Ring name";
+"専用キー" = "Own key";
+"アプリから追加…" = "Add from apps…";
+"クリップボード履歴リング" = "Clipboard history ring";
+"履歴" = "History";
+"起動中アプリのリング" = "Running apps ring";
+"アプリ切替" = "Switch app";
+"ドラッグで並び替え" = "Drag to reorder";
+"リングを選択してください" = "Select a ring";
+"項目を選ぶと編集できます" = "Select an item to edit it";
+"項目を選択してください" = "Select an item";
+"メインのショートカット" = "the main shortcut";
+"このキーは登録できませんでした（%@）。ほかのアプリが使用中の可能性があります。" = "This key could not be registered (%@). Another app may already be using it.";
+"、" = ", ";
+"%@ のコピー" = "%@ copy";
+"追加" = "Add";
+
+/* Symbol picker */
+"よく使う" = "Common";
+"アプリ・起動" = "Apps and launching";
+"Web・通信" = "Web and messaging";
+"ファイル・テキスト" = "Files and text";
+"開発" = "Development";
+"システム" = "System";
+"メディア" = "Media";
+"ナビゲーション" = "Navigation";
+"時間・予定" = "Time and calendar";
+"人・場所" = "People and places";
+"シンボルを検索" = "Search symbols";
+"見つかりません" = "Nothing found";
+"名前を直接入力することもできます" = "You can also type a name directly";
+"検索結果" = "Results";
+"未選択" = "None selected";
+"クリア" = "Clear";
+
+/* Onboarding */
+"Halo へようこそ" = "Welcome to Halo";
+"必要な操作を、必要な瞬間に、\nカーソルの周りへ召喚する。" = "Summon the action you need,\nthe moment you need it.";
+"メニューバーに常駐します。Dock にはアイコンが出ません。" = "Halo lives in the menu bar. It has no Dock icon.";
+"ひとつのジェスチャで完結します" = "One gesture does all of it";
+"%@ を押したままにする" = "Hold %@";
+"カーソルの位置にリングが現れます" = "The ring appears at your cursor";
+"使いたい項目の方向へマウスを弾く" = "Flick toward the item you want";
+"距離は要りません。向きだけで決まります" = "Distance does not matter — only direction";
+"キーを離す" = "Release the key";
+"選択中の項目が実行されます" = "The selected item runs";
+"いま試してみる" = "Try it now";
+"はじめの設定" = "A couple of settings";
+"ログイン時に Halo を起動する" = "Open Halo at login";
+"いま必要な権限はありません" = "No permissions needed yet";
+"アプリ起動・URL・スクリプト・スクリーンショットは権限なしで動きます。ペーストや、修飾キーのダブルタップでの召喚を使うときだけ、アクセシビリティ権限を求めます。" = "Launching apps, opening URLs, running scripts and taking screenshots all work without any permission. Halo only asks for Accessibility when you use pasting or the modifier double-tap.";
+"リングの中身は、メニューバーの Halo アイコン →「設定」からいつでも編集できます。" = "Edit what is on your rings any time from the Halo menu bar icon → Settings.";
+"戻る" = "Back";
+"次へ" = "Next";
+"設定を開く" = "Open Settings";
+"はじめる" = "Get started";
+
+/* VoiceOver */
+"%@ 項目" = "%@ items";
+"%lld 階層目" = "level %lld";
+"選択なし" = "Nothing selected";
+
+/* Confirmation and feedback */
+"「%@」を実行しますか？" = "Run “%@”?";
+"サブリングが見つかりません" = "Sub-ring not found";
+"アプリが見つかりません" = "App not found";
+"起動に失敗しました" = "Could not launch";
+"URL が不正です" = "Invalid URL";
+"ショートカット: %@" = "Shortcut: %@";
+"スクリプト完了" = "Script finished";
+"履歴リング" = "History ring";
+"サブリングとして開いてください" = "Open this as a sub-ring";
+"ペースト操作" = "Pasting";
+"リングから実行してください" = "Run this from the ring";
+"実行に失敗しました" = "Failed";
+"終了コード %lld" = "Exit code %lld";
+"クリップボードにコピーしました" = "Copied to the clipboard";
+"完了" = "Done";
+"選択テキストの取得" = "Reading the selected text";
+"後で" = "Later";
+"履歴なし" = "No history";
+"無効" = "Off";
+"タイムアウト（%lld 秒）" = "Timed out after %lld s";
+"修飾キー／マウスボタンでの召喚" = "Summoning with a modifier key or mouse button";
+
+/* AI runtime */
+"キャンセルしました。" = "Cancelled.";
+"キャンセルしました" = "Cancelled";
+"置き換えました" = "Replaced";
+"考えています…" = "Thinking…";
+"AI 機能が無効です。設定 > AI から有効にしてください。" = "AI is off. Turn it on in Settings → AI.";
+"プロバイダ '%@' は登録されていません。" = "Provider “%@” is not registered.";
+"入力が空です。テキストを選択するかコピーしてから実行してください。" = "There is no input. Select or copy some text first.";
+"モデルから応答がありませんでした。" = "The model returned nothing.";
+"オンデバイスモデルには macOS 26 以降が必要です。" = "The on-device model needs macOS 26 or later.";
+"利用できるプロバイダがありません。" = "No provider is available.";
+"Apple オンデバイス" = "Apple on-device";
+"オンデバイスモデルを利用できません。" = "The on-device model is unavailable.";
+"Apple Intelligence が有効になっていません。" = "Apple Intelligence is not turned on.";
+"この Mac はオンデバイスモデルに対応していません。" = "This Mac does not support the on-device model.";
+"モデルの準備中です。しばらくしてからもう一度お試しください。" = "The model is still getting ready. Try again shortly.";
+"システム設定 →「Apple Intelligence と Siri」で有効にしてください。" = "Turn it on in System Settings → Apple Intelligence & Siri.";
+"初回はモデルのダウンロードに時間がかかることがあります。" = "The first download can take a while.";
+"入力が長すぎます。短くしてからもう一度お試しください。" = "The input is too long. Shorten it and try again.";
+"この内容には応答できませんでした。" = "The model declined to answer this.";
+"この言語には対応していません。" = "That language is not supported.";
+"モデルのデータを利用できません。" = "The model's assets are unavailable.";
+"リクエストが多すぎます。少し時間をおいてください。" = "Too many requests. Give it a moment.";
+
+/* Import and reset */
+"新しいリング" = "New ring";
+"書き出す" = "Export";
+"書き出しに失敗しました" = "Export failed";
+"読み込む" = "Import";
+"読み込みに失敗しました" = "Import failed";
+"読み込めませんでした" = "Could not read the file";
+"Halo の設定ファイルではないようです。" = "This does not look like a Halo configuration.";
+"（読み込み）" = " (imported)";
+"設定を読み込みます" = "Import settings";
+"既存の設定を置き換えるか、リングだけを追加するかを選んでください。" = "Replace your current settings, or just add the rings.";
+"このファイルにはリングだけが含まれています。既存の設定に追加します。" = "This file contains rings only. They will be added to your settings.";
+"すべて置き換える" = "Replace everything";
+"リングを追加する" = "Add the rings";
+"外観だけを初期化" = "Reset appearance only";
+"リングを既定に戻す" = "Restore the default rings";
+"ショートカットと召喚方法を初期化" = "Reset shortcuts and summon methods";
+"コンテキストのルールを消去" = "Clear the context rules";
+"AI 設定を初期化" = "Reset AI settings";
+"すべてを初期化" = "Reset everything";
+"サイズ・色・配置・挙動が既定値に戻ります。リングはそのままです。" = "Sizes, colours, layout and behaviour go back to their defaults. Your rings are untouched.";
+"リングと項目が初回起動時の内容に戻ります。現在の構成は失われます。" = "Rings and items return to their first-run state. Your current arrangement is lost.";
+"召喚ショートカットと、修飾キー／マウスボタンの設定が戻ります。" = "The summon shortcut and the modifier / mouse-button settings go back to their defaults.";
+"アプリごとのリング切り替えルールをすべて削除します。リング自体は残ります。" = "Deletes every per-app rule. The rings themselves stay.";
+"プロバイダ・モデル・プロンプトが既定に戻ります。Keychain のキーは消えません。" = "Provider, model and prompts return to their defaults.";
+"設定ファイルを初期状態に戻します。リング・外観・ショートカットすべてが失われます。" = "Returns the configuration to its initial state. Rings, appearance and shortcuts are all lost.";
+"外観を初期化しますか？" = "Reset appearance?";
+"リングを既定に戻しますか？" = "Restore the default rings?";
+"ショートカットと召喚方法を初期化しますか？" = "Reset shortcuts and summon methods?";
+"コンテキストのルールを消去しますか？" = "Clear the context rules?";
+"AI 設定を初期化しますか？" = "Reset AI settings?";
+"すべてを初期化しますか？" = "Reset everything?";
+"%@\n\nこの操作は取り消せません。" = "%@\n\nThis cannot be undone.";
+
+/* Default rings */
+"クリップ" = "Clip";
+"スクショ" = "Capture";
+"設定" = "Settings";
+"ブランチ名" = "Branch name";
+"IP アドレス" = "IP address";
+"検索" = "Search";
+"翻訳" = "Translate";
+"ペースト" = "Paste";
+"プレーン" = "Plain";
+"小文字化" = "Lowercase";
+"空白除去" = "Trim spaces";
+"消去" = "Clear";
+"ロック" = "Lock";
+"画面スリープ" = "Sleep display";
+"ダークモード" = "Dark mode";
+"ゴミ箱を空に" = "Empty Trash";
+"URL をコピー" = "Copy URL";
+"タイトルをコピー" = "Copy title";
+"リーダー" = "Reader";
+"新規タブ" = "New tab";
+"ビルド" = "Build";
+"停止" = "Stop";
+"クリーン" = "Clean";
+
+/* Default AI ring */
+"日本語に" = "To Japanese";
+"次のテキストを自然な日本語に翻訳してください。\n\n{input}" = "Translate the following text into natural Japanese.\n\n{input}";
+"英語に" = "To English";
+"要約" = "Summarise";
+"次のテキストを日本語で 3 行以内に要約してください。\n\n{input}" = "Summarise the following text in three lines or fewer.\n\n{input}";
+"整える" = "Clean up";
+"次の文章の誤字脱字と不自然な言い回しを直してください。意味は変えないでください。\n\n{input}" = "Fix typos and awkward phrasing in the following text. Do not change its meaning.\n\n{input}";
+"丁寧に" = "Make polite";
+"次の文章を、丁寧で礼儀正しい表現に書き直してください。\n\n{input}" = "Rewrite the following text in a polite, courteous register.\n\n{input}";
+"コードを説明" = "Explain code";
+"次のコードが何をしているかを日本語で簡潔に説明してください。\n\n{input}" = "Explain concisely what the following code does.\n\n{input}";
+"自由入力" = "Free prompt";
+"あなたは macOS のユーティリティです。前置きや説明を書かず、変換後のテキストだけを返してください。" = "You are a macOS utility. Return only the transformed text, with no preamble or explanation.";
+
+/* Action kinds */
+"アプリを起動" = "Launch app";
+"URL を開く" = "Open URL";
+"ショートカットを実行" = "Run Shortcut";
+"シェルスクリプト" = "Shell script";
+"システム操作" = "System";
+"サブリング" = "Sub-ring";
+"何もしない" = "Do nothing";
+
+/* Clipboard operations */
+"テキストをコピー" = "Copy text";
+"プレーンテキストでペースト" = "Paste as plain text";
+"クリップボードを消去" = "Clear the clipboard";
+"履歴リングを開く" = "Open the history ring";
+
+/* System operations */
+"画面をロック" = "Lock the screen";
+"ディスプレイをスリープ" = "Sleep the display";
+"範囲スクリーンショット" = "Screenshot a selection";
+"ウインドウのスクリーンショット" = "Screenshot a window";
+"ダークモード切替" = "Toggle dark mode";
+"ゴミ箱を空にする" = "Empty the Trash";
+"Halo の設定を開く" = "Open Halo settings";
+"音量を上げる" = "Volume up";
+"音量を下げる" = "Volume down";
+"消音を切り替え" = "Toggle mute";
+"デスクトップを表示" = "Show the desktop";
+"アプリ切替（起動中）" = "Switch app (running)";
+"最前面のアプリを終了" = "Quit the frontmost app";
+"他のアプリを隠す" = "Hide other apps";
+"新規 Finder ウインドウ" = "New Finder window";
+
+/* AI input and output */
+"選択テキスト" = "Selected text";
+"リングで入力した文字" = "What you type on the ring";
+"入力なし" = "No input";
+"破棄" = "Discard";
+"クリップボードへ" = "To the clipboard";
+"その場にペースト" = "Paste in place";
+"通知で表示" = "Show a notice";
+
+/* Confirmation prompts */
+"この操作は取り消せません。" = "This cannot be undone.";
+"スクリプトを実行しますか？" = "Run this script?";
+"アプリを起動しますか？" = "Launch this app?";
+"URL を開きますか？" = "Open this URL?";
+"実行しますか？" = "Run this?";
+
+/* Dynamic rings */
+"クリップボード履歴" = "Clipboard history";
+"起動中のアプリ" = "Running apps";
+
+/* Modifier keys */
+"左 ⌘" = "Left ⌘";
+"右 ⌘" = "Right ⌘";
+"左 ⌥" = "Left ⌥";
+"右 ⌥" = "Right ⌥";
+"左 ⌃" = "Left ⌃";
+"右 ⌃" = "Right ⌃";
+"左 ⇧" = "Left ⇧";
+"右 ⇧" = "Right ⇧";
+
+/* Appearance enums */
+"円" = "Circle";
+"角丸" = "Rounded square";
+"六角形" = "Hexagon";
+"ダイヤ" = "Diamond";
+"カプセル" = "Capsule";
+"文字のみ" = "Text only";
+"非表示" = "Hidden";
+"リングの外側" = "Outside the ring";
+"リングの内側" = "Inside the ring";
+"選択中のみ" = "Selected only";
+"なし" = "None";
+"全体を暗く" = "Dim everything";
+"リング周りだけ暗く" = "Dim around the ring";
+"背景をぼかす" = "Blur the background";
+"アプリの色そのまま" = "Original colours";
+"モノクロ" = "Monochrome";

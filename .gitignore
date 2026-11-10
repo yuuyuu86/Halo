@@ -1,0 +1,19 @@
+.build/
+build/
+.DS_Store
+*.xcuserstate
+
+
+# Local and generated files
+.DS_Store
+build/
+dist/
+DerivedData/
+.build/
+node_modules/
+xcuserdata/
+*.xcuserstate
+.env*
+*.mobileprovision
+*.p12
+*.pem
